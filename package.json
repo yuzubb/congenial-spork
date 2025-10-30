@@ -1,0 +1,19 @@
+{
+  "name": "youtubei-channel-server",
+  "version": "1.0.0",
+  "description": "A serverless function to fetch YouTube channel data using youtubei.js for Vercel deployment.",
+  "main": "api/channel.js",
+  "scripts": {
+    "start": "node api/channel.js"
+  },
+  "dependencies": {
+    "youtubei.js": "^7.1.0"
+  },
+  "keywords": [
+    "youtube",
+    "youtubei",
+    "vercel",
+    "nodejs",
+    "serverless"
+  ]
+}
